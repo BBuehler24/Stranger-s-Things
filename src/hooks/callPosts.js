@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BASE_URL } from "../api";
 
-export function usePosts() {
+export function CallPosts() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
